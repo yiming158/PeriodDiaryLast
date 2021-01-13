@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PMS_HomeScreen"
+    android:background="#FFF">
+
+    <ImageView
+        android:id="@+id/image_pmsH"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/pms"
+        android:scaleType="fitXY">
+    </ImageView>
+
+    <ImageButton
+        android:id="@+id/back_arrow_PMS_HS"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_back_arrow"
+        android:background="@null"
+        android:clickable="true"
+        android:focusable="true">
+    </ImageButton>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_pmsH"
+        android:paddingTop="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/card1_PMS"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="What is PMS?"
+            android:textColor="#FFF"
+            android:textSize="25sp"
+            android:background="@drawable/pms_card_background">
+        </TextView>
+
+        <TextView
+            android:id="@+id/card2_PMS"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:text="What are the common symptoms of PMS?"
+            android:textColor="#FFF"
+            android:textSize="25sp"
+            android:background="@drawable/pms_card_background">
+        </TextView>
+
+        <TextView
+            android:id="@+id/card3_PMS"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:text="How to treat PMS?"
+            android:textColor="#FFF"
+            android:textSize="25sp"
+            android:background="@drawable/pms_card_background">
+        </TextView>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PMS_HomeScreen"
+    android:background="#FFF"
+    tools:ignore="MissingDefaultResource">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/back_arrow_exercise"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_back_arrow"
+                android:background="#FFF"
+                android:clickable="true"
+                android:focusable="true">
+            </ImageButton>
+
+            <TextView
+                android:id="@+id/heading1_exercise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Exercise during Period"
+                android:textSize="30sp"
+                android:textColor="#FFB7B7">
+            </TextView>
+
+            <TextView
+                android:id="@+id/content1_exercise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Light cardio workout - Cycling/bike riding, low impact jumping jack, squat to jsb, swimming.\nCheck more web link. "
+                android:textSize="20sp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/content2_exercise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Yoga - Bound angle pose, Bow pose, Bridge pose, Lotus pose.\nCheck more web link"
+                android:textSize="20sp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/content3_exercise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Kegel Exercise - clench-and-release exercise that you can do to make the muscles of your pelvic floor stronger.\nCheck more web link"
+                android:textSize="20sp">
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

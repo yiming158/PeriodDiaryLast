@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PMS_HomeScreen"
+    android:background="#FFF"
+    tools:ignore="MissingDefaultResource">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/back_arrow_hygiene"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_back_arrow"
+                android:background="@null"
+                android:clickable="true"
+                android:focusable="true">
+            </ImageButton>
+
+            <TextView
+                android:id="@+id/heading_hygiene"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Hygiene During Period"
+                android:textSize="30sp"
+                android:textColor="#FFB7B7">
+            </TextView>
+
+            <TextView
+                android:id="@+id/content_PMSHygiene"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Change pads or tampons (Click here to learn more about absorbents) regularly to prevent infections - once every six hours, for a tampon, it's every two hours.\n...\n...\nUse clean underwear and change it everyday.\nDo not use soaps or vaginal hygiene products to wash the genital area."
+                android:textSize="20sp"
+                android:textColor="#FFB7B7">
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

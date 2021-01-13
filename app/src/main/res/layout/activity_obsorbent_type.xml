@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ObsorbentType"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF">
+
+        <ImageButton
+            android:id="@+id/back_arrow_absorbentType"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_back_arrow"
+            android:background="#FFF"
+            android:clickable="true"
+            android:focusable="true">
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/heading1_AbsorbentTypes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/back_arrow_absorbentType"
+            android:layout_marginTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:text="Types of Absorbents Used during Period"
+            android:textSize="30sp"
+            android:textColor="#FFB7B7">
+        </TextView>
+<!--<==============================>-->
+        <TextView
+            android:id="@+id/subheading1_AbsorbentTypes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heading1_AbsorbentTypes"
+            android:layout_marginTop="10dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:text="Reusable and washable cloth pads"
+            android:textSize="20sp"
+            android:textColor="#000">
+        </TextView>
+
+        <TextView
+            android:id="@+id/content1_AbsorbentTypes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subheading1_AbsorbentTypes"
+            android:layout_marginTop="5dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:text="Must be hygienically washed and dried in the sunlight. Cost-effective, easily available, ecofriendly."
+            android:textSize="20sp">
+        </TextView>
+<!--<==============================>-->
+        <TextView
+            android:id="@+id/subheading2_AbsorbentTypes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/content1_AbsorbentTypes"
+            android:layout_marginTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:text="Commercial sanitary pads"
+            android:textSize="20sp"
+            android:textColor="#000">
+        </TextView>
+
+        <TextView
+            android:id="@+id/content2_AbsorbentTypes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subheading2_AbsorbentTypes"
+            android:layout_marginTop="5dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:text="Expensive, non-reusable, not environment friendly."
+            android:textSize="20sp">
+        </TextView>
+<!--<==============================>-->
+        <TextView
+            android:id="@+id/subheading3_AbsorbentTypes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/content2_AbsorbentTypes"
+            android:layout_marginTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:text="Menstrual Cups"
+            android:textSize="20sp"
+            android:textColor="#000">
+        </TextView>
+
+        <TextView
+            android:id="@+id/content3_AbsorbentTypes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subheading3_AbsorbentTypes"
+            android:layout_marginTop="5dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:text="Cups made of medical grade silicone rubber to get inserted into the vagina. Can be worn upto 6-12 hours, are cost effective."
+            android:textSize="20sp">
+        </TextView>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+
+   <ImageButton
+       android:id="@+id/back_arrow_info_MS"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_marginStart="10dp"
+       android:layout_marginTop="10dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentTop="true"
+       android:src="@drawable/ic_back_arrow"
+       android:background="#FFF"
+       android:clickable="true"
+       android:focusable="true">
+   </ImageButton>
+
+   <Button
+      android:id="@+id/hygiene_button"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/back_arrow_info_MS"
+      android:layout_marginTop="20dp"
+      android:layout_marginStart="15dp"
+      android:layout_marginEnd="15dp"
+       android:paddingStart="10dp"
+      android:background="@drawable/mainscreen_buttons_background"
+      android:text="Hygiene"
+      android:textAlignment="viewStart">
+   </Button>
+
+   <Button
+       android:id="@+id/diet_button"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/hygiene_button"
+       android:layout_marginTop="10dp"
+       android:layout_marginStart="15dp"
+       android:layout_marginEnd="15dp"
+       android:paddingStart="10dp"
+       android:background="@drawable/mainscreen_buttons_background"
+       android:text="Diet"
+       android:textAlignment="viewStart">
+   </Button>
+
+   <Button
+       android:id="@+id/exercise_button"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/diet_button"
+       android:layout_marginTop="10dp"
+       android:layout_marginStart="15dp"
+       android:layout_marginEnd="15dp"
+       android:paddingStart="10dp"
+       android:background="@drawable/mainscreen_buttons_background"
+       android:text="Exercise"
+       android:textAlignment="viewStart">
+   </Button>
+
+   <Button
+       android:id="@+id/pregnancy_button"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/exercise_button"
+       android:layout_marginTop="10dp"
+       android:layout_marginStart="15dp"
+       android:layout_marginEnd="15dp"
+       android:paddingStart="10dp"
+       android:background="@drawable/mainscreen_buttons_background"
+       android:text="Pregnancy"
+       android:textAlignment="viewStart">
+   </Button>
+
+   <Button
+       android:id="@+id/pms_button"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/pregnancy_button"
+       android:layout_marginTop="10dp"
+       android:layout_marginStart="15dp"
+       android:layout_marginEnd="15dp"
+       android:paddingStart="10dp"
+       android:background="@drawable/mainscreen_buttons_background"
+       android:text="PMS"
+       android:textAlignment="viewStart">
+   </Button>
+
+   <Button
+       android:id="@+id/younger_user_button"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/pms_button"
+       android:layout_marginTop="10dp"
+       android:layout_marginStart="15dp"
+       android:layout_marginEnd="15dp"
+       android:paddingStart="10dp"
+       android:background="@drawable/mainscreen_buttons_background"
+       android:text="Period for Younger Users"
+       android:textAlignment="viewStart">
+   </Button>
+
+
+</RelativeLayout>

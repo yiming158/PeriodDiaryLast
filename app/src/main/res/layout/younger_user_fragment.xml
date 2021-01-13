@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YoungerUserFragment"
+    android:background="#FFF">
+
+    <ImageButton
+        android:id="@+id/back_arrow_YoungerUser"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_back_arrow"
+        android:background="#FFF"
+        android:clickable="true"
+        android:focusable="true">
+    </ImageButton>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/back_arrow_YoungerUser"
+        android:paddingTop="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="The questions young girls ask about periods:"
+            android:textColor="#FFB7B7"
+            android:textSize="30sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/card1_YoungerUsers"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="30dp"
+            android:text="What is Period?"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:background="@drawable/pms_card_background"
+            android:backgroundTint="#FFB7B7">
+        </TextView>
+
+        <TextView
+            android:id="@+id/card2_YoungerUsers"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="30dp"
+            android:text="What do I need to do for my first time period?"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:background="@drawable/pms_card_background"
+            android:backgroundTint="#FFB7B7">
+        </TextView>
+
+        <TextView
+            android:id="@+id/card3_YoungerUsers"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="30dp"
+            android:text="How to feel better on my period?"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:background="@drawable/pms_card_background"
+            android:backgroundTint="#FFB7B7">
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>

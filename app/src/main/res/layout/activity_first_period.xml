@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstPeriod"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:background="#FFF">
+
+        <ImageButton
+            android:id="@+id/back_arrow_firstPeriod"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_back_arrow"
+            android:background="#FFF"
+            android:clickable="true"
+            android:focusable="true">
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/content_firstPeriod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/back_arrow_firstPeriod"
+            android:layout_marginTop="30dp"
+            android:text="There is nothing in particular you need to do to prepare for your first period, besides having feminine hygiene products and over-the-counter pain relievers such as ibuprofen or naproxen on hand. If you happen to get your period with no access to menstrual products, toilet paper will work in an emergency. If you get your first period at school, your teacher or school nurse will have a pantiliner or pad on hand."
+            android:textSize="20sp">
+        </TextView>
+
+    </RelativeLayout>
+
+</ScrollView>

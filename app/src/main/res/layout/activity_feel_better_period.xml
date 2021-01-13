@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeelBetterPeriod"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:background="#FFF">
+
+        <ImageButton
+            android:id="@+id/back_arrow_feelBetterPeriod"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_back_arrow"
+            android:background="#FFF"
+            android:clickable="true"
+            android:focusable="true">
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/content_feelBetterPeriod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/back_arrow_feelBetterPeriod"
+            android:layout_marginTop="30dp"
+            android:text="There are some at home period hacks that may help alleviate the period cramps and reduce period pain.\n\nUse a heating pad on your lower abdomen or lower back\nTake a warm bath\nPlace a warm water bottle on lower back or lower abdomen\nMassage your abdomen\nAsk your doctor about using an over-the-counter pain reliever or anti-inflammatory drug\nDo an easy exercise like yoga, walking or swimming to help increase the blood flow."
+            android:textSize="20sp">
+        </TextView>
+
+    </RelativeLayout>
+
+</ScrollView>

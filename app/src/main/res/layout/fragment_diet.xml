@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PMS_HomeScreen"
+    android:background="#FFF"
+    tools:ignore="MissingDefaultResource">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/back_arrow_diet"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_back_arrow"
+                android:background="#FFF"
+                android:clickable="true"
+                android:focusable="true">
+            </ImageButton>
+
+            <TextView
+                android:id="@+id/heading1_diet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Foods to eat"
+                android:textSize="30sp"
+                android:textColor="#FFB7B7">
+            </TextView>
+
+            <TextView
+                android:id="@+id/content1_diet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Fruit - help you curb your sugar cravings.\nLeafy green vegetables - can boost your iron levels\nGinger - can sooth achy muscles\nFish - Rich in iron, protein, and omegra-3 fatty acids\nDark Chocolate - rich in iron and magnesium\n..."
+                android:textSize="20sp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/heading2_diet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Foods to avoid"
+                android:textSize="30sp"
+                android:textColor="#FFB7B7">
+            </TextView>
+
+            <TextView
+                android:id="@+id/content2_diet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Fatty foods\nAlcohol\nCarbonated beverages\ncaffeine\nsalty foods"
+                android:textSize="20sp">
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

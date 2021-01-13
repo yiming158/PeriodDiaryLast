@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WhatPeriods"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:background="#FFF">
+
+        <ImageButton
+            android:id="@+id/back_arrow_whatPeriods"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_back_arrow"
+            android:background="#FFF"
+            android:clickable="true"
+            android:focusable="true">
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/content_whatPeriods"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/back_arrow_whatPeriods"
+            android:layout_marginTop="30dp"
+            android:text="Menstruation, or period, is normal vaginal bleeding that occurs as part of a woman's monthly cycle. Every month your body prepares for pregnancy. If no pregnancy occurs, the uterus ,or womb, sheds its lining. The menstrual blood is partly blood and partly tissue from inside the uterus. It passes out the body through the vagina.\n\nPeriods usually start between age 11 and 14 and continue up till menopause at about age 51. They usually last between 3 to 5 days. Besides bleeding from the vagina you may have:\n\nAbdominal or pelvic cramping pain, lower back pain, bloating, and sore"
+            android:textSize="20sp">
+        </TextView>
+
+    </RelativeLayout>
+
+</ScrollView>
