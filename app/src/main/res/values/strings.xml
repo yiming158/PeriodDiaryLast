@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Period Diary2</string>
+    <string name="change_passwords">Change Passwords</string>
+    <string name="period_diary">Period Diary</string>
+    <string name="welcome_to_your_npersonal_period_n_tracker">Welcome to your\npersonal period\n tracker</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="let_s_create_nand_account">Let\'s create\nand account!</string>
+    <string name="signup">Signup</string>
+    <string name="todo">TODO</string>
+
 </resources>

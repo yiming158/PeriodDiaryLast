@@ -15,7 +15,7 @@ import androidx.fragment.app.FragmentTransaction;
 public class EditFragment extends Fragment {
 
     ImageButton back;
-    Button username,password;
+    Button password;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -30,7 +30,7 @@ public class EditFragment extends Fragment {
     private void setVariables(View view)
     {
         back=view.findViewById(R.id.back_arrow_edit);
-        username=view.findViewById(R.id.edit_username);
+
         password=view.findViewById(R.id.edit_password);
     }
 
@@ -40,24 +40,18 @@ public class EditFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 SettingsFragment fragment=new SettingsFragment();
+                assert getFragmentManager() != null;
                 FragmentTransaction fragmentTransaction=getFragmentManager().beginTransaction();
                 fragmentTransaction.replace(R.id.fragment_container_HS,fragment).commit();
             }
         });
 
-        username.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                ChangeUsernameFragment fragment=new ChangeUsernameFragment();
-                FragmentTransaction fragmentTransaction=getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.fragment_container_HS,fragment).commit();
-            }
-        });
 
         password.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 ChangePasswordFragment fragment=new ChangePasswordFragment();
+                assert getFragmentManager() != null;
                 FragmentTransaction fragmentTransaction=getFragmentManager().beginTransaction();
                 fragmentTransaction.replace(R.id.fragment_container_HS,fragment).commit();
             }

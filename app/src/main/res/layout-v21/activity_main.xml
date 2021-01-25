@@ -55,8 +55,7 @@
                 android:inputType="textEmailAddress"
                 android:padding="6dp"
                 android:textColorHint="#FFB7B7"
-                android:autofillHints=""
-                tools:targetApi="lollipop" />
+                android:autofillHints="" />
 
             <View
                 android:layout_width="match_parent"
@@ -74,8 +73,7 @@
                 android:inputType="textPassword"
                 android:padding="6dp"
                 android:textColorHint="#FFB7B7"
-                android:autofillHints=""
-                tools:targetApi="lollipop" />
+                android:autofillHints="" />
 
             <View
                 android:layout_width="match_parent"
@@ -106,8 +104,7 @@
                 android:padding="3dp"
                 android:text="@string/register"
                 android:textAllCaps="false"
-                android:textStyle="bold"
-                tools:targetApi="lollipop" />
+                android:textStyle="bold" />
 
         </LinearLayout>
 

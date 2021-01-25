@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "457332690421",
+    "project_id": "period-diary-ey",
+    "storage_bucket": "period-diary-ey.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457332690421:android:b37ae3fca9cc1f02e8a4bc",
+        "android_client_info": {
+          "package_name": "com.example.perioddiary2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457332690421-kqdf7hivucnh47v1vobg177j7k308455.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy1W7lOeEp8bPQpvXzyS2CopQW9iIotec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457332690421-kqdf7hivucnh47v1vobg177j7k308455.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
